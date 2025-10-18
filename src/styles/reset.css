@@ -1,0 +1,31 @@
+@utility direction-rtl {
+    direction: rtl;
+}
+
+@utility direction-ltr {
+    direction: ltr;
+}
+
+@utility font-text {
+    font-family: Arial, sans-serif;
+
+    @variant rtl {
+        font-family: IRANSans, Arial, sans-serif;
+    }
+}
+
+@utility font-numeric {
+    font-family: Arial, sans-serif;
+
+    @variant rtl {
+        font-family: IRANSansFaNum, IRANSans, Arial, sans-serif;
+    }
+}
+
+body {
+    @apply m-0 p-0 text-sm direction-ltr text-left rtl:direction-rtl rtl:text-right;
+}
+
+* {
+    @apply font-text;
+}

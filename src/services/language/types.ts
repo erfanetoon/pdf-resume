@@ -2,7 +2,7 @@ import "i18next";
 import type Jalali from "react-date-object/calendars/jalali";
 import type Persian from "react-date-object/locales/persian_fa";
 import type { defaultNS } from "~services/language";
-import type Resources from "./locales/fa";
+import type Resources from "./locales/en";
 
 declare module "i18next" {
     interface CustomTypeOptions {

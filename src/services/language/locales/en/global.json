@@ -1,1 +1,29 @@
-{}
+{
+    "stackOverflow": "Stack Overflow",
+    "github": "Github",
+    "linkedin": "Linkedin",
+    "website": "Website",
+    "summary": "Summary",
+    "educations": {
+        "title": "Educations",
+        "bachelor": "Bachelor"
+    },
+    "skills": {
+        "title": "Skills",
+        "languagesAndCores": "Languages and Core",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "toolsAndPlatforms": "Tools and Platforms",
+        "devOps": "DevOps"
+    },
+    "languages": {
+        "title": "Languages",
+        "persian": "Persian",
+        "english": "English",
+        "azerbaijani": "Azerbaijani"
+    },
+    "workExperiences": {
+        "title": "Work Experiences",
+        "skills": "Skills"
+    }
+}

@@ -7,7 +7,7 @@
 }
 
 @utility font-text {
-    font-family: Arial, sans-serif;
+    font-family: Inter, Arial, sans-serif;
 
     @variant rtl {
         font-family: IRANSans, Arial, sans-serif;
@@ -23,7 +23,7 @@
 }
 
 body {
-    @apply m-0 p-0 text-sm direction-ltr text-left rtl:direction-rtl rtl:text-right;
+    @apply m-0 bg-gray-100 p-0 text-left text-sm direction-ltr rtl:text-right rtl:direction-rtl;
 }
 
 * {

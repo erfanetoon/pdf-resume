@@ -5,7 +5,7 @@ import { defaultLanguage } from "~services/language";
 import { getLanguage } from "~services/language/helpers";
 import type { TLanguages } from "~services/language/types";
 import Layout from "./layout";
-import Container from "./container";
+import PageOne from "./pages/one";
 
 const App = () => {
     const [isSetShortcut, setIsSetShortcut] = useState(false);
@@ -60,12 +60,12 @@ const App = () => {
 
         if (!html[0]) return undefined;
 
-        html[0].setAttribute("dir", direction || "rtl");
+        html[0].setAttribute("dir", direction || "ltr");
     }, [direction]);
 
     return (
         <Layout>
-            <Container />
+            <PageOne />
         </Layout>
     );
 };

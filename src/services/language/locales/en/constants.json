@@ -1,1 +1,60 @@
-{}
+{
+    "firstName": "Erfan",
+    "lastName": "Hosseinpoor",
+    "address": "Tehran, Iran(Open to relocation)",
+    "jobTitle": "Full Stack Developer (Javascript/Nodejs)",
+    "summary": "Full Stack Developer with 6+ years of experience in designing and developing scalable web applications using JavaScript, TypeScript, React, Next.js, Node.js, and NestJS. Strong background in frontend and backend development, databases, CI/CD, and cloud infrastructure (CloudStack, Ceph). Currently seeking remote opportunities or visasponsored positions to contribute expertise in modern web development and cloud systems.",
+    "educations": {
+        "bachelor": {
+            "field": "Computer Engineering",
+            "uni": "Iran - Azad University",
+            "dates": "2018 - 2022"
+        }
+    },
+    "workExperiences": {
+        "one": {
+            "company": "SmartPath",
+            "jobTitle": "Full Stack Developer",
+            "locationAndTime": "Tehran - Full Time | Nov 2025 – Present",
+            "description": {
+                "one": "Worked on a cloud infrastructure platform built on OpenStack, contributing to analysis, design, and development of core features.",
+                "two": "Participated in development of object storage services using Ceph / S3-compatible storage, integrating them into the platform.",
+                "three": "Contributed to a monitoring platform with an ESB, building a frontend application to visualize and monitor system",
+                "four": "Designed and implemented microservices to support cloud platform functionalities and system scalability.",
+                "five": "Collaborated with team members to analyze requirements and deliver cloud-related features end-to-end."
+            }
+        },
+        "two": {
+            "company": "Faradid Payesh System",
+            "jobTitle": "Full Stack Developer",
+            "locationAndTime": "Tehran - Full Time | Nov 2022 – Nov 2025",
+            "description": {
+                "one": "Built the frontend of the Koja Tracking System, enabling efficient tracking and management workflows.",
+                "two": "Developed both frontend and backend of the main Faradid company website, from UI implementation to API integration.",
+                "three": "Worked with OpenLayers maps for real-time tracking solutions.",
+                "four": "Collaborated closely with cross-functional teams to integrate frontend components with backend services."
+            }
+        },
+        "three": {
+            "company": "Karan",
+            "jobTitle": "Frontend Developer",
+            "locationAndTime": "Tehran - Full Time | Feb 2021 – Nov 2022",
+            "description": {
+                "one": "Maintained and enhanced the Karan job seeker platform, ensuring stability and smooth user experience.",
+                "two": "Implemented a resume builder system, allowing users to create and manage professional resumes within the platform.",
+                "three": "Developed and improved frontend features using modern JavaScript and component-based architecture.",
+                "four": "Introduced and integrated a utility-first CSS approach similar to Tailwind CSS, improving UI consistency and development speed."
+            }
+        },
+        "four": {
+            "company": "Aryana Design and Develop",
+            "jobTitle": "Frontend Developer",
+            "locationAndTime": "Tehran - Full Time | Sep 2019 – Feb 2021",
+            "description": {
+                "one": "Built and maintained frontend components for an LMS (Learning Management System), focusing on reusability and scalability.",
+                "two": "Developed responsive static pages from Figma designs, ensuring pixel-perfect implementation and cross-device compatibility.",
+                "three": "Created and maintained the company’s main website using React and Next.js, delivering a modern and performant user experience."
+            }
+        }
+    }
+}

@@ -25,5 +25,8 @@
     "workExperiences": {
         "title": "Work Experiences",
         "skills": "Skills"
+    },
+    "projects": {
+        "title": "Projects"
     }
 }

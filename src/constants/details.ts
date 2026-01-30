@@ -7,3 +7,10 @@ export const contactInformation = {
     stackOverflow: "https://stackoverflow.com/users/9088089/erfan-hosseinpoor",
     telegram: "https://t.me/erfanhp77"
 };
+
+export const projects = {
+    reactTailwindUI:
+        "https://www.npmjs.com/package/@erfanetoon/react-tailwind-ui",
+    irpishbini: "https://irpishbini.ir",
+    winca: "https://winca.ir"
+};

@@ -4,7 +4,7 @@ const WorkExperiences = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="flex flex-col gap-3 py-4">
+        <div className="flex flex-col gap-3">
             <h3 className="text-lg font-medium">
                 {t("workExperiences.title")}
             </h3>

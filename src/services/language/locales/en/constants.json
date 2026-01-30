@@ -11,6 +11,11 @@
             "dates": "2018 - 2022"
         }
     },
+    "projects": {
+        "one": "React Tailwind UI Package",
+        "two": "Winca Iran Platforms",
+        "three": "Soccer Prediction Platform"
+    },
     "workExperiences": {
         "one": {
             "company": "SmartPath",

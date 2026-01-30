@@ -40,6 +40,8 @@ const Intro = () => {
                     <a
                         href={`tel:${contactInformation.phone}`}
                         className="flex items-center gap-2"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <TbPhoneCall className="text-xl text-gray-800" />
 
@@ -51,6 +53,8 @@ const Intro = () => {
                     <a
                         href={`mailto:${contactInformation.email}`}
                         className="flex items-center gap-2"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <TbMail className="min-w-max text-xl text-gray-800" />
 
@@ -74,6 +78,8 @@ const Intro = () => {
                     <a
                         href={contactInformation.github}
                         className="flex items-center justify-center gap-2"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <TbBrandGithub className="min-w-max text-xl text-gray-800" />
 
@@ -83,6 +89,8 @@ const Intro = () => {
                     <a
                         href={contactInformation.stackOverflow}
                         className="flex items-center justify-center gap-2"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <TbBrandStackoverflow className="min-w-max text-xl text-gray-800" />
 
@@ -94,6 +102,8 @@ const Intro = () => {
                     <a
                         href={contactInformation.linkedin}
                         className="flex items-center justify-center gap-2"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <TbBrandLinkedin className="min-w-max text-xl text-gray-800" />
 
@@ -105,6 +115,8 @@ const Intro = () => {
                     <a
                         href={contactInformation.website}
                         className="flex items-center justify-center gap-2"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <TbWorldWww className="min-w-max text-xl text-gray-800" />
 

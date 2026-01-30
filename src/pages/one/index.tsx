@@ -1,6 +1,7 @@
 import Educations from "./educations";
 import Intro from "./intro";
 import Languages from "./languages";
+import Projects from "./projects";
 import Skills from "./skills";
 import Summary from "./summary";
 import WorkExperiences from "./workExperiences";
@@ -22,6 +23,8 @@ const PageOne = () => (
                 <Educations />
 
                 <Languages />
+
+                <Projects />
             </div>
 
             <div className="col-span-8 border-s border-gray-300 ps-4">

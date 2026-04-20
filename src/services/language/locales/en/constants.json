@@ -2,8 +2,10 @@
     "firstName": "Erfan",
     "lastName": "Hosseinpoor",
     "address": "Tehran, Iran(Open to relocation)",
+    "age": "October 12, 1998 (28 Years)",
+    "military": "",
     "jobTitle": "Full Stack Developer (Javascript/Nodejs)",
-    "summary": "Full Stack Developer with 6+ years of experience designing and developing scalable web applications using JavaScript, TypeScript, React, Next.js, Node.js, and NestJS. Strong background in frontend and backend development, databases, CI/CD, and cloud infrastructure (CloudStack, Ceph). Currently seeking remote opportunities or visa-sponsored positions to contribute expertise in modern web development and cloud systems.",
+    "summary": "Full Stack Developer with 6+ years of experience designing and developing scalable web applications using JavaScript, TypeScript, React, Next.js, Node.js, and NestJS. Strong background in frontend and backend development, databases, CI/CD, and cloud infrastructure (CloudStack, Ceph).",
     "educations": {
         "bachelor": {
             "field": "Computer Engineering",
@@ -12,9 +14,62 @@
         }
     },
     "projects": {
-        "one": "React Tailwind UI Package",
-        "two": "Winca Iran Platforms",
-        "three": "Soccer Prediction Platform"
+        "one": {
+            "title": "Abrvand",
+            "company": "SmartPath",
+            "role": "Fullstack Developer and ",
+            "link": "https://abrvand.ir/auth/login",
+            "description": "",
+            "technologies": "React, Redux, Material UI for frontend section / Fastify, Couchbase, Redis for backend section"
+        },
+        "two": {
+            "title": "Karan Jobseeker Platform",
+            "company": "Faradid Payesh System",
+            "role": "Frontend Developer",
+            "link": "https://koja.co",
+            "description": "",
+            "technologies": "React, Mantine UI, Tailwind, PWA"
+        },
+        "three": {
+            "title": "Koja Tracking System",
+            "company": "Faradid Payesh System",
+            "role": "Frontend Developer",
+            "link": "https://koja.co",
+            "description": "",
+            "technologies": "React, Mantine UI, Tailwind, PWA"
+        },
+        "four": {
+            "title": "Asan Service Tracking System",
+            "company": "Faradid Payesh System",
+            "role": "Frontend Developer",
+            "link": "https://gps.asan-service.com",
+            "description": "",
+            "technologies": "React, Mantine UI, Tailwind, PWA"
+        },
+        "five": {
+            "title": "Winca",
+            "company": "Freelancer",
+            "role": "Fullstack Developer and Project Manager",
+            "link": "https://winca.ir",
+            "description": "",
+            "technologies": "React, Nextjs, Tailwind for frontend section / Nestjs, MySQL, TypeORM for backend section"
+        },
+        "six": {
+            "title": "React Tailwind UI package",
+            "company": "Freelancer",
+            "role": "Developer",
+            "link": "https://www.npmjs.com/package/@erfanetoon/react-tailwind-ui",
+            "description": "",
+            "technologies": "React, Tailwind, Floating UI, NPM"
+        },
+        "seven": {
+            "title": "Soccer Prediction Platform",
+            "company": "Freelancer",
+            "role": "Fullstack Developer",
+            "link": "https://irpishbini.ir",
+            "description": "",
+            "technologies": "React, Tailwind, Ant Design for frontend section / Nestjs, MySQL, TypeORM for backend section"
+        }
     },
     "workExperiences": {
         "one": {
@@ -61,5 +116,14 @@
                 "three": "Created and maintained the company’s main website using React and Next.js, delivering a modern and performant user experience."
             }
         }
+    },
+    "softSkills": {
+        "one": "Problem Solving",
+        "two": "Teamwwork",
+        "three": "Creativity",
+        "four": "Communication",
+        "five": "Testing and Debugging",
+        "six": "Adaptability",
+        "seven": "Responsibility"
     }
 }

@@ -6,6 +6,7 @@ import { getLanguage } from "~services/language/helpers";
 import type { TLanguages } from "~services/language/types";
 import Layout from "./layout";
 import PageOne from "./pages/one";
+import PageTwo from "./pages/two";
 
 const App = () => {
     const [isSetShortcut, setIsSetShortcut] = useState(false);
@@ -64,9 +65,15 @@ const App = () => {
     }, [direction]);
 
     return (
-        <Layout>
-            <PageOne />
-        </Layout>
+        <>
+            <Layout>
+                <PageOne />
+            </Layout>
+
+            <Layout>
+                <PageTwo />
+            </Layout>
+        </>
     );
 };
 

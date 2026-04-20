@@ -4,6 +4,11 @@
     "linkedin": "Linkedin",
     "website": "Website",
     "summary": "Summary",
+    "company": "Company",
+    "description": "Description",
+    "role": "Role",
+    "technologies": "Technologies",
+    "link": "Link",
     "educations": {
         "title": "Educations",
         "bachelor": "Bachelor"
@@ -28,5 +33,11 @@
     },
     "projects": {
         "title": "Projects"
+    },
+    "socials": {
+        "title": "Social Networks"
+    },
+    "softSkills": {
+        "title": "Soft Skills"
     }
 }

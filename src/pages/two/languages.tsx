@@ -5,7 +5,7 @@ const Languages = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="flex flex-col gap-2 py-4">
+        <div className="flex flex-col gap-3 border-b border-gray-300 pb-5">
             <h3 className="text-lg font-medium">{t("languages.title")}</h3>
 
             <div className="flex gap-0.5">

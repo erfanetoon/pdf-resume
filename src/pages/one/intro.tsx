@@ -1,12 +1,10 @@
 import { useTranslation } from "react-i18next";
 import {
-    TbBrandGithub,
-    TbBrandLinkedin,
-    TbBrandStackoverflow,
+    TbCalendar,
     TbMail,
     TbMapPin,
-    TbPhoneCall,
-    TbWorldWww
+    TbMilitaryRank,
+    TbPhoneCall
 } from "react-icons/tb";
 import { contactInformation } from "~constants/details";
 
@@ -14,117 +12,81 @@ const Intro = () => {
     const { t } = useTranslation();
 
     return (
-        <>
-            <div className="flex items-center gap-2">
-                <img
-                    src="/images/me.jpg"
-                    width={128}
-                    className="rounded-t-xl"
-                    alt="Erfan Hosseinpoor"
-                />
+        <div className="flex items-center gap-2 border-b border-gray-300">
+            <img
+                src="/images/me.jpg"
+                width={128}
+                className="rounded-t-xl"
+                alt="Erfan Hosseinpoor"
+            />
 
-                <div className="flex flex-col gap-1 text-gray-700">
-                    <h1 className="m-0 text-3xl font-medium">
-                        {`${t("firstName", { ns: "constants" })} `}
-                        <span className="font-bold">
-                            {t("lastName", { ns: "constants" })}
-                        </span>
-                    </h1>
+            <div className="flex flex-col gap-1 text-gray-700">
+                <h1 className="m-0 text-3xl font-medium">
+                    {`${t("firstName", { ns: "constants" })} `}
+                    <span className="font-bold">
+                        {t("lastName", { ns: "constants" })}
+                    </span>
+                </h1>
 
-                    <h3 className="text-lg font-medium">
-                        {t("jobTitle", { ns: "constants" })}
-                    </h3>
+                <h3 className="text-lg font-medium">
+                    {t("jobTitle", { ns: "constants" })}
+                </h3>
+            </div>
+
+            <div className="ms-auto flex flex-col gap-1">
+                <a
+                    href={`tel:${contactInformation.phone}`}
+                    className="flex items-center gap-2"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <TbPhoneCall className="text-xl text-gray-800" />
+
+                    <p className="text-gray-600">{contactInformation.phone}</p>
+                </a>
+
+                <a
+                    href={`mailto:${contactInformation.email}`}
+                    className="flex items-center gap-2"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <TbMail className="min-w-max text-xl text-gray-800" />
+
+                    <p className="truncate text-gray-600">
+                        {contactInformation.email}
+                    </p>
+                </a>
+
+                <div className="flex justify-items-center gap-2">
+                    <TbMapPin className="min-w-max text-xl text-gray-800" />
+
+                    <p className="truncate text-gray-600">
+                        {t("address", { ns: "constants" })}
+                    </p>
                 </div>
 
-                <div className="ms-auto flex flex-col gap-1">
-                    <a
-                        href={`tel:${contactInformation.phone}`}
-                        className="flex items-center gap-2"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <TbPhoneCall className="text-xl text-gray-800" />
-
-                        <p className="text-gray-600">
-                            {contactInformation.phone}
-                        </p>
-                    </a>
-
-                    <a
-                        href={`mailto:${contactInformation.email}`}
-                        className="flex items-center gap-2"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <TbMail className="min-w-max text-xl text-gray-800" />
-
-                        <p className="truncate text-gray-600">
-                            {contactInformation.email}
-                        </p>
-                    </a>
-
+                {!!t("age", { ns: "constants" }) && (
                     <div className="flex justify-items-center gap-2">
-                        <TbMapPin className="min-w-max text-xl text-gray-800" />
+                        <TbCalendar className="min-w-max text-xl text-gray-800" />
 
                         <p className="truncate text-gray-600">
-                            {t("address", { ns: "constants" })}
+                            {t("age", { ns: "constants" })}
                         </p>
                     </div>
-                </div>
-            </div>
+                )}
 
-            <div className="border-y-2 border-gray-300 py-2">
-                <div className="grid grid-cols-4 gap-2">
-                    <a
-                        href={contactInformation.github}
-                        className="flex items-center justify-center gap-2"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <TbBrandGithub className="min-w-max text-xl text-gray-800" />
-
-                        <p className="truncate text-gray-600">{t("github")}</p>
-                    </a>
-
-                    <a
-                        href={contactInformation.stackOverflow}
-                        className="flex items-center justify-center gap-2"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <TbBrandStackoverflow className="min-w-max text-xl text-gray-800" />
+                {!!t("military", { ns: "constants" }) && (
+                    <div className="flex justify-items-center gap-2">
+                        <TbMilitaryRank className="min-w-max text-xl text-gray-800" />
 
                         <p className="truncate text-gray-600">
-                            {t("stackOverflow")}
+                            {t("military", { ns: "constants" })}
                         </p>
-                    </a>
-
-                    <a
-                        href={contactInformation.linkedin}
-                        className="flex items-center justify-center gap-2"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <TbBrandLinkedin className="min-w-max text-xl text-gray-800" />
-
-                        <p className="truncate text-gray-600">
-                            {t("linkedin")}
-                        </p>
-                    </a>
-
-                    <a
-                        href={contactInformation.website}
-                        className="flex items-center justify-center gap-2"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <TbWorldWww className="min-w-max text-xl text-gray-800" />
-
-                        <p className="truncate text-gray-600">{t("website")}</p>
-                    </a>
-                </div>
+                    </div>
+                )}
             </div>
-        </>
+        </div>
     );
 };
 

@@ -4,7 +4,7 @@ const Educations = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="flex flex-col gap-2 border-b border-gray-300 py-4">
+        <div className="flex flex-col gap-3 py-5">
             <h3 className="text-lg font-medium">{t("educations.title")}</h3>
 
             <div className="flex flex-col gap-0.5">

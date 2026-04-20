@@ -1,7 +1,6 @@
 export const languagesAndCoresSkills = [
     "Javascript",
     "Typescript",
-    "Git",
     "HTML",
     "CSS"
 ];
@@ -18,6 +17,10 @@ export const frontendSkills = [
     "OpenLayers",
     "Leaflet",
     "Angular",
+    "Vite",
+    "Webpack",
+    "Sass/Less",
+    "PWA",
     "SEO"
 ];
 
@@ -31,14 +34,19 @@ export const backendSkills = [
     "Couchbase",
     "TypeORM",
     "Sequelize",
-    "GraphQL"
+    "GraphQL",
+    "Redis"
 ];
 
-export const devOpsSkills = ["CI/CD", "Docker", "Lens"];
+export const devOpsSkills = ["CI/CD", "Docker", "Lens", " Grafana"];
 
 export const toolsAndPlatformsSkills = [
     "Git",
-    "Apache Cloudstack",
+    "Jira",
+    "Sentry",
+    "ESLint/Prettier",
+    "OpenStack",
+    "Apache CloudStack",
     "Ceph",
     "Amazon S3"
 ];

@@ -27,7 +27,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.one.company", { ns: "constants" })}
@@ -35,7 +37,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.one.role", { ns: "constants" })}
@@ -44,7 +48,7 @@ const Projects = () => {
 
                 {!!t("projects.one.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -57,7 +61,7 @@ const Projects = () => {
                 )}
 
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 
@@ -88,7 +92,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.two.company", { ns: "constants" })}
@@ -96,7 +102,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.two.role", { ns: "constants" })}
@@ -105,7 +113,7 @@ const Projects = () => {
 
                 {!!t("projects.two.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -117,7 +125,7 @@ const Projects = () => {
                     </div>
                 )}
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 
@@ -148,7 +156,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.three.company", { ns: "constants" })}
@@ -156,7 +166,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.three.role", { ns: "constants" })}
@@ -165,7 +177,7 @@ const Projects = () => {
 
                 {!!t("projects.three.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -178,7 +190,7 @@ const Projects = () => {
                 )}
 
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 
@@ -209,7 +221,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.four.company", { ns: "constants" })}
@@ -217,7 +231,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.four.role", { ns: "constants" })}
@@ -226,7 +242,7 @@ const Projects = () => {
 
                 {!!t("projects.four.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -239,7 +255,7 @@ const Projects = () => {
                 )}
 
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 
@@ -270,7 +286,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.five.company", { ns: "constants" })}
@@ -278,7 +296,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.five.role", { ns: "constants" })}
@@ -287,7 +307,7 @@ const Projects = () => {
 
                 {!!t("projects.five.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -300,7 +320,7 @@ const Projects = () => {
                 )}
 
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 
@@ -331,7 +351,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.six.company", { ns: "constants" })}
@@ -339,7 +361,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.six.role", { ns: "constants" })}
@@ -348,7 +372,7 @@ const Projects = () => {
 
                 {!!t("projects.six.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -361,7 +385,7 @@ const Projects = () => {
                 )}
 
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 
@@ -392,7 +416,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("company") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("company") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.seven.company", { ns: "constants" })}
@@ -400,7 +426,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs">
-                    <span className="text-gray-700">{t("role") + ":"}</span>
+                    <span className="min-w-max text-gray-700">
+                        {t("role") + ":"}
+                    </span>
 
                     <span className="font-medium">
                         {t("projects.seven.role", { ns: "constants" })}
@@ -409,7 +437,7 @@ const Projects = () => {
 
                 {!!t("projects.seven.description", { ns: "constants" }) && (
                     <div className="flex gap-2 text-xs">
-                        <span className="text-gray-700">
+                        <span className="min-w-max text-gray-700">
                             {t("description") + ":"}
                         </span>
 
@@ -422,7 +450,7 @@ const Projects = () => {
                 )}
 
                 <div className="flex gap-2 text-xs">
-                    <span className="text-gray-700">
+                    <span className="min-w-max text-gray-700">
                         {t("technologies") + ":"}
                     </span>
 

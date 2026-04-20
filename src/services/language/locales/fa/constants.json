@@ -1,1 +1,129 @@
-{}
+{
+    "firstName": "عرفان",
+    "lastName": "حسین پور",
+    "address": "ایران، تهران (امکان تغییر مکان)",
+    "age": "28 سال",
+    "military": "پایان خدمت",
+    "jobTitle": "Full Stack Developer (Javascript/Nodejs)",
+    "summary": "توسعه‌دهنده فول‌استک با بیش از ۶ سال تجربه در طراحی و توسعه‌ی اپلیکیشن‌های وب با استفاده از JavaScript، TypeScript، React، Next.js، Node.js و NestJS. دارای تسلط بالا در توسعه فرانت‌اند و بک‌اند، پایگاه‌های داده، فرایندهای CI/CD و زیرساخت‌های ابری (CloudStack، Ceph).",
+    "educations": {
+        "bachelor": {
+            "field": "مهندسی کامپیوتر",
+            "uni": "دانشگاه آزاد تهران",
+            "dates": "1397 - 1401"
+        }
+    },
+    "projects": {
+        "one": {
+            "title": "سرویس ابری ابروند",
+            "company": "مسیر هوشمند",
+            "role": "Fullstack Developer",
+            "link": "https://abrvand.ir/auth/login",
+            "description": "",
+            "technologies": "React, Redux, Material UI for frontend section / Fastify, Couchbase, Redis for backend section"
+        },
+        "two": {
+            "title": "کاریابی کاران",
+            "company": "کاران",
+            "role": "Frontend Developer",
+            "link": "https://karan.ir/",
+            "description": "",
+            "technologies": "React, Mantine UI, Tailwind, PWA"
+        },
+        "three": {
+            "title": "ردیابی کجا",
+            "company": "فرادید پایش سیستم",
+            "role": "Frontend Developer",
+            "link": "https://koja.co",
+            "description": "",
+            "technologies": "React, Mantine UI, Tailwind, PWA"
+        },
+        "four": {
+            "title": "ردیابی آسان سرویس",
+            "company": "فرادید پایش سیستم",
+            "role": "Frontend Developer",
+            "link": "https://gps.asan-service.com",
+            "description": "",
+            "technologies": "React, Mantine UI, Tailwind, PWA"
+        },
+        "five": {
+            "title": "وینکا",
+            "company": "فریلنسر",
+            "role": "Fullstack Developer and Project Manager",
+            "link": "https://winca.ir",
+            "description": "",
+            "technologies": "React, Nextjs, Tailwind for frontend section / Nestjs, MySQL, TypeORM for backend section"
+        },
+        "six": {
+            "title": "پکیج React Tailwind UI",
+            "company": "فریلنسر",
+            "role": "Developer",
+            "link": "https://www.npmjs.com/package/@erfanetoon/react-tailwind-ui",
+            "description": "",
+            "technologies": "React, Tailwind, Floating UI, NPM"
+        },
+        "seven": {
+            "title": "پیش بینی فوتبال",
+            "company": "فریلنسر",
+            "role": "Fullstack Developer",
+            "link": "https://irpishbini.ir",
+            "description": "",
+            "technologies": "React, Tailwind, Ant Design for frontend section / Nestjs, MySQL, TypeORM for backend section"
+        }
+    },
+    "workExperiences": {
+        "one": {
+            "company": "مسیر هوشمند",
+            "jobTitle": "Full Stack Developer",
+            "locationAndTime": "تهران - تمام وقت | آذر 1404 – اسفند 1404",
+            "description": {
+                "one": "روی یک پلتفرم زیرساخت ابری مبتنی بر OpenStack کار کرده و در تحلیل، طراحی و توسعه قابلیت‌های اصلی آن مشارکت داشته ام.",
+                "two": "در توسعه سرویس‌های ذخیره‌سازی آبجکت با استفاده از Ceph و ذخیره‌سازی سازگار با S3 مشارکت داشته و آن‌ها را در پلتفرم یکپارچه کرده ام.",
+                "three": "در توسعه یک پلتفرم مانیتورینگ مبتنی بر ESB مشارکت داشته و یک اپلیکیشن فرانت‌اند برای نمایش و پایش سیستم پیاده‌سازی کرده ام.",
+                "four": "میکروسرویس‌هایی برای پشتیبانی از قابلیت‌های پلتفرم ابری و افزایش مقیاس‌پذیری سیستم طراحی و پیاده‌سازی کرده ام.",
+                "five": "با اعضای تیم برای تحلیل نیازمندی‌ها و ارائه کامل قابلیت‌های مرتبط با فضای ابری همکاری کرده ام."
+            }
+        },
+        "two": {
+            "company": "فرادید پایش سیستم",
+            "jobTitle": "Full Stack Developer",
+            "locationAndTime": "تهران - تمام وقت | آبان 1401 – آبان 1404",
+            "description": {
+                "one": "فرانت‌اند سیستم ردیابی Koja را پیاده‌سازی کرده و امکان رهگیری و مدیریت کارآمد فرآیندها را فراهم کرده ام.",
+                "two": "فرانت‌اند و بک‌اند وب‌سایت اصلی شرکت Faradid را از پیاده‌سازی رابط کاربری تا یکپارچه‌سازی API توسعه داده ام.",
+                "three": "با نقشه‌های OpenLayers برای ارائه راهکارهای رهگیری RealTime کار کرده ام.",
+                "four": "با تیم‌های چندتخصصی همکاری نزدیک داشته تا کامپوننت‌های فرانت‌اند را با سرویس‌های بک‌اند یکپارچه کنم."
+            }
+        },
+        "three": {
+            "company": "کاران",
+            "jobTitle": "Frontend Developer",
+            "locationAndTime": "تهران - تمام وقت | بهمن 1399 – آبان 1401",
+            "description": {
+                "one": "پلتفرم کاریابی Karan را نگهداری و بهبود داده و پایداری و تجربه کاربری روان آن را تضمین کرده ام.",
+                "two": "سیستم رزومه‌ساز را پیاده‌سازی کرده و به کاربران امکان ایجاد و مدیریت رزومه‌های حرفه‌ای درون پلتفرم را داده ایم.",
+                "three": "ویژگی‌های فرانت‌اند را با استفاده از JavaScript مدرن و معماری مبتنی بر کامپوننت توسعه داده و بهبود بخشیده ام.",
+                "four": "رویکرد CSS مبتنی بر utility مشابه Tailwind CSS را معرفی و یکپارچه کرده که باعث بهبود یکپارچگی رابط کاربری و افزایش سرعت توسعه شده است."
+            }
+        },
+        "four": {
+            "company": "طراحی و توسعه آریانا",
+            "jobTitle": "Frontend Developer",
+            "locationAndTime": "تهران - تمام وقت | شهریور 1398 – بهمن 1399",
+            "description": {
+                "one": "کامپوننت‌های فرانت‌اند یک سیستم مدیریت یادگیری (LMS) را با تمرکز بر قابلیت استفاده مجدد و مقیاس‌پذیری پیاده‌سازی و نگهداری کرده ام.",
+                "two": "صفحات استاتیک ریسپانسیو را بر اساس طراحی‌های Figma توسعه داده و پیاده‌سازی دقیق (pixel-perfect) و سازگاری با دستگاه‌های مختلف را تضمین کرده ام.",
+                "three": "وب‌سایت اصلی شرکت را با استفاده از React و Next.js توسعه داده و نگهداری کرده و تجربه کاربری مدرن و با عملکرد بالا ارائه داده ام."
+            }
+        }
+    },
+    "softSkills": {
+        "one": "حل مشکل",
+        "two": "قابلیت کار گروهی و تیمی",
+        "three": "خلاقیت",
+        "four": "برقراری ارتباط",
+        "five": "تست و دیباگ",
+        "six": "تطبیق پذیری",
+        "seven": "مسئولیت پذیری"
+    }
+}

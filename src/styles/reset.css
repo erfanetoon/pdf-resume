@@ -10,12 +10,12 @@
     font-family: Inter, Arial, sans-serif;
 
     @variant rtl {
-        font-family: IRANSans, Arial, sans-serif;
+        font-family: IRANSansFaNum, Arial, sans-serif;
     }
 }
 
 @utility font-numeric {
-    font-family: Arial, sans-serif;
+    font-family: Inter, Arial, sans-serif;
 
     @variant rtl {
         font-family: IRANSansFaNum, IRANSans, Arial, sans-serif;

@@ -12,8 +12,6 @@ const Socials = () => {
 
     return (
         <div className="flex flex-col gap-3 py-5">
-            <h3 className="text-lg font-medium">{t("socials.title")}</h3>
-
             <div className="flex flex-col items-start gap-4">
                 <a
                     href={contactInformation.github}

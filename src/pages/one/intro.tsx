@@ -42,7 +42,13 @@ const Intro = () => {
                 >
                     <TbPhoneCall className="text-xl text-gray-800" />
 
-                    <p className="text-gray-600">{contactInformation.phone}</p>
+                    <p className="text-gray-600 rtl:hidden">
+                        {contactInformation.phone}
+                    </p>
+
+                    <p className="text-gray-600 ltr:hidden">
+                        {contactInformation.phone.replace("+98", "0")}
+                    </p>
                 </a>
 
                 <a

@@ -1,1 +1,40 @@
-{}
+{
+    "stackOverflow": "Stack Overflow",
+    "github": "Github",
+    "linkedin": "Linkedin",
+    "website": "وب سایت",
+    "summary": "خلاصه",
+    "company": "شرکت",
+    "description": "توضیحات",
+    "role": "نقش",
+    "technologies": "تکنولوژی ها",
+    "link": "لینک",
+    "educations": {
+        "title": "سوابق تحصیلی",
+        "bachelor": "کارشناسی"
+    },
+    "skills": {
+        "title": "مهارت ها",
+        "languagesAndCores": "Languages and Core",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "toolsAndPlatforms": "ابزار ها و پلتفرم ها",
+        "devOps": "DevOps"
+    },
+    "languages": {
+        "title": "زبان ها",
+        "persian": "فارسی",
+        "english": "انگلیسی",
+        "azerbaijani": "آذربایجانی"
+    },
+    "workExperiences": {
+        "title": "سوابق شغلی",
+        "skills": "مهارت ها"
+    },
+    "projects": {
+        "title": "پروژه ها"
+    },
+    "softSkills": {
+        "title": "مهارت های نرم"
+    }
+}

@@ -17,16 +17,16 @@
         "one": {
             "title": "Abrvand",
             "company": "SmartPath",
-            "role": "Fullstack Developer and ",
+            "role": "Fullstack Developer",
             "link": "https://abrvand.ir/auth/login",
             "description": "",
             "technologies": "React, Redux, Material UI for frontend section / Fastify, Couchbase, Redis for backend section"
         },
         "two": {
             "title": "Karan Jobseeker Platform",
-            "company": "Faradid Payesh System",
+            "company": "Karan",
             "role": "Frontend Developer",
-            "link": "https://koja.co",
+            "link": "https://karan.ir",
             "description": "",
             "technologies": "React, Mantine UI, Tailwind, PWA"
         },
@@ -75,7 +75,7 @@
         "one": {
             "company": "SmartPath",
             "jobTitle": "Full Stack Developer",
-            "locationAndTime": "Tehran - Full Time | Nov 2025 – Present",
+            "locationAndTime": "Tehran - Full Time | Nov 2025 – Mar 2026",
             "description": {
                 "one": "Worked on a cloud infrastructure platform built on OpenStack, contributing to analysis, design, and development of core features.",
                 "two": "Participated in development of object storage services using Ceph / S3-compatible storage, integrating them into the platform.",

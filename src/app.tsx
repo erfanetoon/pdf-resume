@@ -4,11 +4,12 @@ import storage from "~utilities/storage";
 import { defaultLanguage } from "~services/language";
 import { getLanguage } from "~services/language/helpers";
 import type { TLanguages } from "~services/language/types";
-import Layout from "./layout";
-import PageOne from "./pages/one";
-import PageTwo from "./pages/two";
+import OneColumnMode from "./modes/oneColumn";
+import TwoColumnMode from "./modes/twoColumn";
 
 const App = () => {
+    const [mode] = useState<"oneColumn" | "twoColumn">("twoColumn");
+
     const [isSetShortcut, setIsSetShortcut] = useState(false);
 
     const {
@@ -66,13 +67,8 @@ const App = () => {
 
     return (
         <>
-            <Layout>
-                <PageOne />
-            </Layout>
-
-            <Layout>
-                <PageTwo />
-            </Layout>
+            {mode === "oneColumn" && <OneColumnMode />}
+            {mode === "twoColumn" && <TwoColumnMode />}
         </>
     );
 };

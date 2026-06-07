@@ -1,16 +1,16 @@
 export const languagesAndCoresSkills = [
-    "Javascript",
-    "Typescript",
-    "HTML",
-    "CSS"
+    "JavaScript",
+    "TypeScript",
+    "HTML5",
+    "CSS3"
 ];
 
 export const frontendSkills = [
     "React",
-    "Nextjs",
-    "Redux",
+    "Next.js",
+    "Redux Toolkit",
     "Material UI",
-    "Tailwind",
+    "Tailwind CSS",
     "Bootstrap",
     "Mantine",
     "Ant Design",
@@ -21,32 +21,46 @@ export const frontendSkills = [
     "Webpack",
     "Sass/Less",
     "PWA",
-    "SEO"
+    "SEO",
+    "Turborepo"
 ];
 
 export const backendSkills = [
-    "Nodejs",
-    "Nestjs",
+    "Node.js",
+    "NestJS",
     "Express",
     "Fastify",
+    "GraphQL",
+    "REST API",
+    "Microservices",
+    "WebSocket"
+];
+
+export const databaseSkills = [
     "MySQL",
     "MongoDB",
     "Couchbase",
+    "Redis",
     "TypeORM",
     "Sequelize",
-    "GraphQL",
-    "Redis"
+    "Mongoose"
 ];
 
-export const devOpsSkills = ["CI/CD", "Docker", "Lens", " Grafana"];
-
-export const toolsAndPlatformsSkills = [
-    "Git",
-    "Jira",
-    "Sentry",
-    "ESLint/Prettier",
+export const devOpsAndCloudSkills = [
+    "Docker",
+    "CI/CD",
+    "Grafana",
+    "Lens",
     "OpenStack",
     "Apache CloudStack",
     "Ceph",
     "Amazon S3"
+];
+
+export const toolsSkills = [
+    "Sentry",
+    "Git",
+    "Jira",
+    "Agile/Scrum",
+    "ESLint/Prettier"
 ];

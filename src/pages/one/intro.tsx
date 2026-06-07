@@ -12,14 +12,7 @@ const Intro = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="flex items-center gap-2 border-b border-gray-300">
-            <img
-                src="/images/me.jpg"
-                width={128}
-                className="rounded-t-xl"
-                alt="Erfan Hosseinpoor"
-            />
-
+        <div className="flex items-center gap-2 border-b border-gray-300 pb-2">
             <div className="flex flex-col gap-1 text-gray-700">
                 <h1 className="m-0 text-3xl font-medium">
                     {`${t("firstName", { ns: "constants" })} `}
@@ -36,7 +29,7 @@ const Intro = () => {
             <div className="ms-auto flex flex-col gap-1">
                 <a
                     href={`tel:${contactInformation.phone}`}
-                    className="flex items-center gap-2"
+                    className="flex items-center gap-2 underline"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -53,7 +46,7 @@ const Intro = () => {
 
                 <a
                     href={`mailto:${contactInformation.email}`}
-                    className="flex items-center gap-2"
+                    className="flex items-center gap-2 underline"
                     target="_blank"
                     rel="noreferrer"
                 >

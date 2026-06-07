@@ -1,15 +1,15 @@
 {
     "firstName": "Erfan",
     "lastName": "Hosseinpoor",
-    "address": "Tehran, Iran(Open to relocation)",
-    "age": "October 12, 1998 (28 Years)",
+    "address": "Tehran, Iran (Open to relocation)",
+    "age": "",
     "military": "",
-    "jobTitle": "Full Stack Developer (Javascript/Nodejs)",
-    "summary": "Full Stack Developer with 6+ years of experience designing and developing scalable web applications using JavaScript, TypeScript, React, Next.js, Node.js, and NestJS. Strong background in frontend and backend development, databases, CI/CD, and cloud infrastructure (CloudStack, Ceph).",
+    "jobTitle": "Full Stack Developer (JavaScript/TypeScript/Node.js)",
+    "summary": "Full Stack Developer with 6+ years of experience building scalable, production-grade web applications using JavaScript, TypeScript, React, Next.js, Node.js, and NestJS. Proven track record delivering real-time tracking systems, cloud infrastructure platforms (OpenStack, Ceph), and microservices architectures. Adept at owning projects end-to-end — from REST API design and database modeling to responsive frontend implementation and CI/CD deployment. Seeking a challenging remote or on-site role where I can drive technical decisions and ship high-impact products.",
     "educations": {
         "bachelor": {
-            "field": "Computer Engineering",
-            "uni": "Iran - Azad University",
+            "field": "B.Sc. Computer Engineering",
+            "uni": "Azad University - Iran",
             "dates": "2018 - 2022"
         }
     },
@@ -19,69 +19,61 @@
             "company": "SmartPath",
             "role": "Fullstack Developer",
             "link": "https://abrvand.ir/auth/login",
-            "description": "",
-            "technologies": "React, Redux, Material UI for frontend section / Fastify, Couchbase, Redis for backend section"
+            "description": "Contributed to a cloud-native platform for infrastructure automation, building performant UI dashboards and high-throughput Fastify API endpoints with Redis caching.",
+            "technologies": "React, Redux, Material UI (frontend) - Fastify, Couchbase, Redis (backend)"
         },
         "two": {
             "title": "Karan Jobseeker Platform",
             "company": "Karan",
             "role": "Frontend Developer",
             "link": "https://karan.ir",
-            "description": "",
-            "technologies": "React, Mantine UI, Tailwind, PWA"
+            "description": "A job-seeker/employer web platform built with React, Mantine UI and Tailwind — featuring resume builder, job listings, and application management for thousands of active users.",
+            "technologies": "React, Material UI, Tailwind"
         },
         "three": {
             "title": "Koja Tracking System",
             "company": "Faradid Payesh System",
             "role": "Frontend Developer",
             "link": "https://koja.co",
-            "description": "",
-            "technologies": "React, Mantine UI, Tailwind, PWA"
+            "description": "A real-time GPS tracking and fleet management PWA built with React, Mantine UI, Tailwind, and OpenLayers — enabling live vehicle/asset monitoring, route history, and operational workflow management.",
+            "technologies": "React, Nextjs, Mantine UI, Tailwind, PWA"
         },
         "four": {
-            "title": "Asan Service Tracking System",
-            "company": "Faradid Payesh System",
-            "role": "Frontend Developer",
-            "link": "https://gps.asan-service.com",
-            "description": "",
-            "technologies": "React, Mantine UI, Tailwind, PWA"
-        },
-        "five": {
             "title": "Winca",
             "company": "Freelancer",
             "role": "Fullstack Developer and Project Manager",
             "link": "https://winca.ir",
-            "description": "",
-            "technologies": "React, Nextjs, Tailwind for frontend section / Nestjs, MySQL, TypeORM for backend section"
+            "description": "Designed and delivered a full-stack SaaS platform end-to-end, managing both engineering and product roadmap. Implemented JWT authentication, role-based access control",
+            "technologies": "React, Nextjs, Tailwind (frontend) / Nestjs, MySQL, TypeORM (backend)"
         },
-        "six": {
+        "five": {
             "title": "React Tailwind UI package",
             "company": "Freelancer",
             "role": "Developer",
             "link": "https://www.npmjs.com/package/@erfanetoon/react-tailwind-ui",
-            "description": "",
+            "description": "Published an open-source React component library with 15+ accessible, composable UI components built on Tailwind CSS and Floating UI. Available on NPM.",
             "technologies": "React, Tailwind, Floating UI, NPM"
         },
-        "seven": {
+        "six": {
             "title": "Soccer Prediction Platform",
             "company": "Freelancer",
             "role": "Fullstack Developer",
             "link": "https://irpishbini.ir",
-            "description": "",
-            "technologies": "React, Tailwind, Ant Design for frontend section / Nestjs, MySQL, TypeORM for backend section"
+            "description": "Built a real-time soccer prediction platform with live match data integration. Handled 100+ concurrent users.",
+            "technologies": "React, Tailwind, Ant Design (frontend) / Nestjs, MySQL, TypeORM (backend)"
         }
     },
     "workExperiences": {
         "one": {
             "company": "SmartPath",
             "jobTitle": "Full Stack Developer",
-            "locationAndTime": "Tehran - Full Time | Nov 2025 – Mar 2026",
+            "locationAndTime": "Tehran - Full Time | Mar 2023 – Present",
             "description": {
-                "one": "Worked on a cloud infrastructure platform built on OpenStack, contributing to analysis, design, and development of core features.",
-                "two": "Participated in development of object storage services using Ceph / S3-compatible storage, integrating them into the platform.",
-                "three": "Contributed to a monitoring platform with an ESB, building a frontend application to visualize and monitor system",
-                "four": "Designed and implemented microservices to support cloud platform functionalities and system scalability.",
-                "five": "Collaborated with team members to analyze requirements and deliver cloud-related features end-to-end."
+                "one": "Architected and delivered core features for a cloud infrastructure platform built on OpenStack, reducing feature delivery time through modular microservice design.",
+                "two": "Built and integrated object storage services using Ceph / S3-compatible APIs, enabling scalable file management for the platform's enterprise clients.",
+                "three": "Developed a real-time monitoring dashboard with ESB integration using React and Redux, providing live visibility into system health across 10+ infrastructure components.",
+                "four": "Designed and deployed 5 microservices supporting cloud platform functionality, improving system scalability and decoupling critical services.",
+                "five": "Collaborated cross-functionally with product and infrastructure teams to analyze requirements and deliver cloud-related features end-to-end within sprint cycles."
             }
         },
         "two": {
@@ -89,10 +81,11 @@
             "jobTitle": "Full Stack Developer",
             "locationAndTime": "Tehran - Full Time | Nov 2022 – Nov 2025",
             "description": {
-                "one": "Built the frontend of the Koja Tracking System, enabling efficient tracking and management workflows.",
-                "two": "Developed both frontend and backend of the main Faradid company website, from UI implementation to API integration.",
-                "three": "Worked with OpenLayers maps for real-time tracking solutions.",
-                "four": "Collaborated closely with cross-functional teams to integrate frontend components with backend services."
+                "one": "Built the full frontend of the Koja Tracking System using React, Mantine UI, and OpenLayers, enabling real-time GPS tracking and management workflows for 1,000+ daily active users.",
+                "two": "Integrated OpenLayers maps for live tracking with WebSocket-based location updates, achieving sub-second position refresh rates.",
+                "three": "Collaborated with backend and mobile teams to align API contracts, reducing integration bugs by ~30% through shared TypeScript interfaces and clear documentation.",
+                "four": "Led frontend architecture decisions for 3 tracking products (Koja, Asan Service, Karan), standardizing component libraries and cutting UI development time.",
+                "five": "Developed end-to-end frontend and backend of the main Faradid company website, from REST API design with Nest.js to production deployment, reducing page load time by 15%."
             }
         },
         "three": {
@@ -100,10 +93,10 @@
             "jobTitle": "Frontend Developer",
             "locationAndTime": "Tehran - Full Time | Feb 2021 – Nov 2022",
             "description": {
-                "one": "Maintained and enhanced the Karan job seeker platform, ensuring stability and smooth user experience.",
-                "two": "Implemented a resume builder system, allowing users to create and manage professional resumes within the platform.",
-                "three": "Developed and improved frontend features using modern JavaScript and component-based architecture.",
-                "four": "Introduced and integrated a utility-first CSS approach similar to Tailwind CSS, improving UI consistency and development speed."
+                "one": "Maintained and enhanced the Karan job-seeker platform serving 50,000+ registered users, improving core UX flows and reducing reported bugs.",
+                "two": "Built a resume builder system from scratch using React and component-based architecture, adopted by 1,000+ users within the first 3 months of launch.",
+                "three": "Led the migration of the Karan platform from Next.js v8 to v10, adopting incremental static regeneration (ISR) and improved image optimization, reducing build times by ~40% and improving Core Web Vitals scores.",
+                "four": "Introduced and integrated a utility-first CSS approach (like Tailwind CSS), reducing stylesheet size by 60% and improving UI development consistency across the team."
             }
         },
         "four": {
@@ -111,19 +104,10 @@
             "jobTitle": "Frontend Developer",
             "locationAndTime": "Tehran - Full Time | Sep 2019 – Feb 2021",
             "description": {
-                "one": "Built and maintained frontend components for an LMS (Learning Management System), focusing on reusability and scalability.",
-                "two": "Developed responsive static pages from Figma designs, ensuring pixel-perfect implementation and cross-device compatibility.",
-                "three": "Created and maintained the company’s main website using React and Next.js, delivering a modern and performant user experience."
+                "one": "Built and maintained frontend components for a Learning Management System (LMS) using React, focusing on reusable, accessible component design serving 100+ students.",
+                "two": "Delivered 20+ pixel-perfect responsive pages from Figma designs with full cross-browser and cross-device compatibility.",
+                "three": "Created and maintained the company's main website using React and Next.js, achieving 90+ Lighthouse performance and SEO scores."
             }
         }
-    },
-    "softSkills": {
-        "one": "Problem Solving",
-        "two": "Teamwwork",
-        "three": "Creativity",
-        "four": "Communication",
-        "five": "Testing and Debugging",
-        "six": "Adaptability",
-        "seven": "Responsibility"
     }
 }

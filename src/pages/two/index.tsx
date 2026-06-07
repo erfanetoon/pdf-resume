@@ -1,6 +1,7 @@
 import Languages from "./languages";
 import Projects from "./projects";
 import Socials from "./socials";
+import WorkExperiences from "./workExperiences";
 
 const PageTwo = () => (
     <div className="p-4">
@@ -12,6 +13,8 @@ const PageTwo = () => (
             </div>
 
             <div className="col-span-8 border-s border-gray-300 ps-4">
+                <WorkExperiences />
+
                 <Projects />
             </div>
         </div>

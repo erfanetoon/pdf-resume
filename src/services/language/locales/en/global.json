@@ -8,24 +8,30 @@
     "description": "Description",
     "role": "Role",
     "technologies": "Technologies",
+    "stack": "Stack",
     "link": "Link",
+    "url": "URL",
     "educations": {
         "title": "Educations",
         "bachelor": "Bachelor"
     },
     "skills": {
         "title": "Skills",
-        "languagesAndCores": "Languages and Core",
+        "languagesAndCores": "Languages",
         "frontend": "Frontend",
         "backend": "Backend",
-        "toolsAndPlatforms": "Tools and Platforms",
-        "devOps": "DevOps"
+        "database": "Database",
+        "devOpsAndCloud": "DevOps & Cloud",
+        "tools": "Tools"
     },
     "languages": {
         "title": "Languages",
         "persian": "Persian",
         "english": "English",
-        "azerbaijani": "Azerbaijani"
+        "azerbaijani": "Azerbaijani",
+        "native": "Native",
+        "professional": "Professional working proficiency",
+        "conversational": "Conversational"
     },
     "workExperiences": {
         "title": "Work Experiences",

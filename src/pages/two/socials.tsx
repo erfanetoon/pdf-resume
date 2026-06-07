@@ -11,53 +11,91 @@ const Socials = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="flex flex-col gap-3 py-5">
-            <div className="flex flex-col items-start gap-4">
-                <a
-                    href={contactInformation.github}
-                    className="flex items-center justify-center gap-4"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+        <div className="flex flex-col gap-2 pt-5">
+            <div className="flex flex-col items-start gap-2">
+                <div className="flex items-start justify-center gap-4">
                     <TbBrandGithub className="min-w-max text-2xl text-gray-800" />
 
-                    <p className="truncate text-gray-600">{t("github")}</p>
-                </a>
+                    <div>
+                        <p className="truncate font-medium text-gray-700">
+                            {t("github")}
+                        </p>
 
-                <a
-                    href={contactInformation.stackOverflow}
-                    className="flex items-center justify-center gap-4"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                        <p className="flex items-center text-xs text-gray-600">
+                            <a
+                                href={contactInformation.github}
+                                className="break-all underline"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                {contactInformation.github}
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex items-start justify-center gap-4">
                     <TbBrandStackoverflow className="min-w-max text-2xl text-gray-800" />
 
-                    <p className="truncate text-gray-600">
-                        {t("stackOverflow")}
-                    </p>
-                </a>
+                    <div>
+                        <p className="truncate font-medium text-gray-700">
+                            {t("stackOverflow")}
+                        </p>
 
-                <a
-                    href={contactInformation.linkedin}
-                    className="flex items-center justify-center gap-4"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                        <p className="flex items-start text-xs text-gray-600">
+                            <a
+                                href={contactInformation.stackOverflow}
+                                className="break-all underline"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                {contactInformation.stackOverflow}
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex items-start justify-center gap-4">
                     <TbBrandLinkedin className="min-w-max text-2xl text-gray-800" />
 
-                    <p className="truncate text-gray-600">{t("linkedin")}</p>
-                </a>
+                    <div>
+                        <p className="truncate font-medium text-gray-700">
+                            {t("linkedin")}
+                        </p>
 
-                <a
-                    href={contactInformation.website}
-                    className="flex items-center justify-center gap-4"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                        <p className="flex items-center text-xs text-gray-600">
+                            <a
+                                href={contactInformation.linkedin}
+                                className="break-all underline"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                {contactInformation.linkedin}
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex items-start justify-center gap-4">
                     <TbWorldWww className="min-w-max text-2xl text-gray-800" />
 
-                    <p className="truncate text-gray-600">{t("website")}</p>
-                </a>
+                    <div>
+                        <p className="truncate font-medium text-gray-700">
+                            {t("website")}
+                        </p>
+
+                        <p className="flex items-center text-xs text-gray-600">
+                            <a
+                                href={contactInformation.website}
+                                className="break-all underline"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                {contactInformation.website}
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     );
